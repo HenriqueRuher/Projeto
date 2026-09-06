@@ -1,8 +1,13 @@
-// Função que recebe dois números e retorna a soma deles
 function somarNumeros(a, b) {
     return a + b;
 }
 
-// Testando a função
-let resultado = somarNumeros(5, 7);
-console.log("O resultado da soma é: " + resultado);
+function multiplicarNumeros(a, b) {
+    return a * b;
+}
+
+let resultadoSoma = somarNumeros(5, 7);
+let resultadoMult = multiplicarNumeros(5, 7);
+
+console.log("O resultado da soma é: " + resultadoSoma);
+console.log("O resultado da multiplicação é: " + resultadoMult);
